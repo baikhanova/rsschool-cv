@@ -1,4 +1,4 @@
 # Anel Baikhanova
 
 ## baikhanova.anel@mail.ru
-## RS-school
+## RS-sc
