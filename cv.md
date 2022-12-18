@@ -82,10 +82,6 @@ function noSpace(x){
 > ##### 2022 august
 > ##### Introduction to Front-End Development from Meta
 > ##### link:https://www.coursera.org/account/accomplishments/certificate/FUKCTS64B7CX
----
-> ##### 2022 august
-> ##### Introduction to Front-End Development from Meta
-> ##### link:https://www.coursera.org/account/accomplishments/certificate/FUKCTS64B7CX
 
 ### Eng.level
 > A2 (pre-intermediate)
