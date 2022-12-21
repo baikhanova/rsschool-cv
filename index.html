@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="container"> 
+            <ul>
+                <li><a class="animated-link" href="#">Contacts</a></li>
+                <li><a class="animated-link" href="#">Summary</a></li>
+                <li><a class="animated-link" href="#">Skills</a></li>
+                <li><a class="animated-link" href="#">Code</a></li>
+                <li><a class="animated-link" href="#">Projects</a></li>
+                <li><a class="animated-link" href="#">Education</a></li>
+                <li><a class="animated-link" href="#">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container container">
+        <div class="profile">
+            <div class="profile-photo">
+                <img src="https://media.licdn.com/dms/image/C4D03AQHAWLcjAk-Z8Q/profile-displayphoto-shrink_400_400/0/1586269040152?e=1677110400&amp;v=beta&amp;t=T8ojSoAyTl2jv5kbUh63infGlvgzyt18JWJSux-eLEQ" alt="Anel Baikhanova's photo">
+            </div>
+            <div class="profile-title">
+                <h1>Anel Baikhanova</h1>
+                <h3>junior front-end developer</h3>
+            </div>
+        </div>
+    
+        <div class="second-container">
+            <div class="section" id="contacts">
+                <h2 class="main-title">Contacts</h2>
+                <ul>
+                    <li>Astana,Kazakhstan</li>
+                    <li>Email: baikhanova.anel@mail.ru</li>
+                    <li>Github: baikhanova</li>
+                    <li>Telegram: @aileenek</li>
+                </ul>
+            </div>
+            <div class="section" id="summary">
+                <h2 class="main-title">Summary</h2>
+                <p>
+                    In the past for 4+ years I taught programming languages, game creation and design. Therefore, I have basic knowledge of just a little bit. But I don't really want that. I want to focus on the front-end development and move in this direction. <br><br>
+                    At the moment I am actively studying front-end development. As a specialist, it is very interesting for me to know not only in the form of theory, but also to use knowledge in practice, so to speak, in battle.
+                </p>
+            </div>
+        </div>
 
+        <div class="third-container">
+            <div class="section skills">
+                <h2 class="main-title">Skills</h2>
+                <ul >
+                    <li>Design: AI, PS, Figma, Canva</li>
+                    <li>Web-development: HTML, CSS, JavaScript, ES6+</li>
+                    <li>VCS: Git, Github</li>
+                    <li>CMS sys.: WordPress, Wix</li>
+                    <li>Programming: C#, C++, Python, JS, TS</li>
+                    <li>Game developing: 2D, 3D and AR games on the Unity platform</li>
+                </ul>
+            </div>
+            <div class="section" id="code">
+                <h2 class="main-title">Code</h2>
+                <pre>
+                    <code>
+                        function squareSum(numbers){
+                            let sum = 0;
+                            
+                            for (let i = 0; i &lt; numbers.length; i++) {
+                            sum += Math.pow(numbers[i], 2);
+                            }
+                            return sum;
+                        }
+                        
+                        function evenOrOdd(number) {
+                            if (number % 2 == 0) {
+                            return "Even";
+                            }
+                            else {
+                            return "Odd";
+                            }
+                        }
+                        
+                        function countSheeps(arrayOfSheep) {
+                            let countOfSheeps = 0;
+                            
+                            for (let i = 0; i &lt; arrayOfSheep.length; i++) {
+                            if (arrayOfSheep[i] == true) {
+                                countOfSheeps += 1;
+                            }
+                            }
+                            return countOfSheeps;
+                        }
+                        
+                        function noSpace(x){
+                            let str = x.replace(/\s+/g, '')
+                            //g-global s-spaces
+                            return str;
+                        }
+                    </code>
+                </pre>
+            </div>
+        </div>   <!-- close third-container -->
+
+        <div class="fourth-container">
+            <div class="section" id="courses">
+                <h2 class="main-title">Courses</h2>
+                <ul class="skills">
+                    <li>Meta - 
+                        <a target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/FUKCTS64B7CX">
+                            Introduction to Front-End Development
+                        </a>
+                    </li>
+                    <li>University of Michigan - 
+                        <a target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/ZDVM9A7MVC39">
+                            HTML5
+                        </a>
+                    </li>
+                    <li>University of Michigan - 
+                        <a target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/WYDT29PMZ7EZ">
+                            Programming for Everybody (Python)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="section" id="projects">
+                <h2 class="main-title">Projects</h2>
+                <ul class="skills">
+                    <li>
+                        <a target="_blank" href="https://github.com/baikhanova/todo">ToDo</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/baikhanova/landing-moon">Animated Landing Page</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/baikhanova/harvard-dashboard">Harvard Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </div>   <!-- close fourth-container -->
+
+        <div class="fifth-container">
+            <div class="section" id="education">
+                <h2 class="main-title">Education</h2>
+                <p>ASTANA POLYTECHNIC COLLEGE</p>
+                <p>Computing technology and software</p>
+            </div>
+            <div class="section" id="eng-level">
+                <h2 class="main-title">English</h2>
+                <p>B1 - Pre-Intermediate</p>
+            </div>
+        </div> <!-- close fifth-container -->
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>@ 2022 <a class="git-link animated-link" target="_blank" href="https://github.com/baikhanova">Anel Baikhanova</a></p>
+            <a href="https://rs.school/js/"><img width="200" src="assets/rs_school_js.svg" alt="rs-school-icon"></a>
+        </div>
+    </footer>
+</body>
+</html>
