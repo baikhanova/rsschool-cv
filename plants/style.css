@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    height: 134px;
+}
+.header{
+    background-color: #EDF2EC;
+}
+.main-logo{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+}
+.main-menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    float: left;
+}
+.main-menu a{
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: #010201;
+}
+.main-menu a:hover{
+    color:#E06733;
+}
+.welcome-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 532px;
+}
+.welcome{
+    background-color: #EDF2EC;
+}
+.leafs-photo{
+    width: 449px;
+    height: 408px;
+}
+.welcome-section{
+    width: 549px;
+    height: 340px;
+}
+.welcome-section h1{
+    color: #717171;
+    font-size: 45px;
+}
+.green-text{
+    color: #499A18;
+}
+.welcome-section p{
+    color: #636060;
+    font-size: 20px;
+    margin: 42px 0 48px 0;
+}
+.welcome-section button{
+    width: 158px;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid #E06733;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: center;
+}
+.welcome-section button:hover{
+    background-color: #E06733;
+    color: #fff;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-us{
+    width: 605px;
+    height: 350px;
+}
+.about-us h2{
+    color: #499A18;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    width: 463px;
+}
+.about-us .orange{
+    color: #E06733;
+}
+.about-us p{
+    color: #636060;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.about img{
+    width: 464px;
+    height: 479px;
+}
+.service-container{
+    height: 1300px;
+    align-items: center;
+}
+.service{
+    background-color: #EDF2EC;
+}
+.services-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+    padding-top: 40px;
+}
+.service h2{
+    color: #499A18;
+    font-size: 40px;
+    line-height: 52px;
+    vertical-align: top;
+}
+.service-btns button{
+    width: 161px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #E06733;
+    color: #E06733;
+    font-size: 20px;
+    line-height: 26px;
+    vertical-align: top;
+    margin-left: 38px;
+}
+.service-btns button:active{
+    background-color: #E06733;
+    color: #fff;
+}
+.services1{
+    height: 955px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service-item{
+    margin-bottom: 55px;
+}
+.service-item img{
+    width: 330px;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+}
+.item-content{
+    border: 1px solid #E3E1D5;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding: 10px 32px 36px 31px;
+    margin: 0;
+}
+.item-content h3{
+    color: #E06733;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.item-content p{
+    color: #717171;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+.prices-container{
+    height: 560px;
+    display: flex;
+    justify-content: space-between;
+}
+.prices-header{
+    display: flex;
+    flex-direction: column;
+}
+.prices h2{
+    font-size: 40px;
+}
+.prices-item{
+    width: 332px;
+    height: 282px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item-button{
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ellipse{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+.prices-contacts{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.prices-contacts h2 {
+    text-align: right;
+}
+.prices-contacts img {
+    margin-top: 40px;
+}
+.prices button{
+    width: 161px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #E06733;
+    color: #E06733;
+    font-size: 20px;
+    line-height: 26px;
+    vertical-align: top;
+    margin-left: 38px;
+}
+.prices button:active{
+    background-color: #E06733;
+    color: #fff;
+}
+.contacts {
+    background-color: #EDF2EC;
+}
+.contacts-container {
+    padding-top: 60px;
+}
+.contacts-container h2 {
+    text-align: center;
+    color: #499A18;
+    font-size: 40px;
+    font-weight: 700;
+}
