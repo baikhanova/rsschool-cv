@@ -1,74 +1,104 @@
-body{
+body {
+    width: 100%;
     margin: 0;
     padding: 0;
 }
-.container{
+
+* {
+    font-family: 'Inter';
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
     width: 1240px;
     margin: 0 auto;
 }
-.header-container{
+
+.header-container {
     display: flex;
     justify-content: space-between;
     height: 134px;
 }
-.header{
+
+.header-container * {
+    font-family: "Inika";
+}
+
+.header {
     background-color: #EDF2EC;
 }
-.main-logo{
+
+.main-logo {
     display: flex;
     align-items: center;
     float: left;
 }
-.main-menu{
+
+.main-menu {
     display: flex;
     align-items: center;
 }
-.main-menu ul{
+
+.main-menu ul {
     display: flex;
     align-items: center;
     list-style: none;
     float: left;
 }
-.main-menu a{
+
+.main-menu a {
     padding: 0 15px;
     text-decoration: none;
     font-size: 20px;
     font-weight: 300;
     color: #010201;
 }
-.main-menu a:hover{
-    color:#E06733;
+
+.main-menu a:hover {
+    color: #E06733;
 }
-.welcome-container{
+
+.welcome-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 532px;
+    padding: 70px 0;
 }
-.welcome{
+
+.welcome {
     background-color: #EDF2EC;
 }
-.leafs-photo{
+
+.leafs-photo {
     width: 449px;
     height: 408px;
 }
-.welcome-section{
+
+.welcome-section {
     width: 549px;
     height: 340px;
 }
-.welcome-section h1{
+
+.welcome-section h1 {
     color: #717171;
     font-size: 45px;
+    margin-top: 0;
 }
-.green-text{
+
+.green-text {
     color: #499A18;
 }
-.welcome-section p{
+
+.welcome-section p {
     color: #636060;
     font-size: 20px;
     margin: 42px 0 48px 0;
 }
-.welcome-section button{
+
+.welcome-section button {
     width: 158px;
     height: 44px;
     background-color: transparent;
@@ -79,20 +109,24 @@ body{
     text-align: center;
     vertical-align: center;
 }
-.welcome-section button:hover{
+
+.welcome-section button:hover {
     background-color: #E06733;
     color: #fff;
 }
-.about-container{
+
+.about-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 0;
 }
-.about-us{
+
+.about-us {
     width: 605px;
-    height: 350px;
 }
-.about-us h2{
+
+.about-us h2 {
     color: #499A18;
     font-size: 40px;
     font-weight: 400;
@@ -100,40 +134,52 @@ body{
     text-align: left;
     width: 463px;
 }
-.about-us .orange{
+
+.about-us .orange {
     color: #E06733;
 }
-.about-us p{
+
+.about-us p {
     color: #636060;
     font-size: 20px;
     line-height: 30px;
     margin-top: 40px;
 }
-.about img{
+
+.about img {
     width: 464px;
     height: 479px;
 }
-.service-container{
-    height: 1300px;
+
+.service-container {
     align-items: center;
+    padding: 50px 0;
 }
-.service{
+
+.service {
     background-color: #EDF2EC;
 }
-.services-content{
+
+.services-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 90px;
     padding-top: 40px;
 }
-.service h2{
+
+.services-content h2 {
+    font-family: "Inika";
+}
+
+.service h2 {
     color: #499A18;
     font-size: 40px;
     line-height: 52px;
     vertical-align: top;
 }
-.service-btns button{
+
+.service-btns>button {
     width: 161px;
     height: 50px;
     background-color: transparent;
@@ -145,27 +191,31 @@ body{
     vertical-align: top;
     margin-left: 38px;
 }
-.service-btns button:active{
+
+.service-btns button:active {
     background-color: #E06733;
     color: #fff;
 }
-.services1{
-    height: 955px;
+
+.services1 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.service-item{
+
+.service-item {
     margin-bottom: 55px;
 }
-.service-item img{
+
+.service-item img {
     width: 330px;
     height: 350px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin: 0;
 }
-.item-content{
+
+.item-content {
     border: 1px solid #E3E1D5;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -173,7 +223,8 @@ body{
     padding: 10px 32px 36px 31px;
     margin: 0;
 }
-.item-content h3{
+
+.item-content h3 {
     color: #E06733;
     font-style: bold;
     font-size: 20px;
@@ -181,37 +232,43 @@ body{
     margin: 0;
     margin-bottom: 10px;
 }
-.item-content p{
+
+.item-content p {
     color: #717171;
     font-size: 16px;
     line-height: 20px;
     margin: 0;
 }
-.prices-container{
-    height: 560px;
+
+.prices-container {
     display: flex;
     justify-content: space-between;
+    padding: 70px 0;
 }
-.prices-header{
+
+.prices-header {
     display: flex;
     flex-direction: column;
 }
-.prices h2{
+
+.prices h2 {
+    margin-top: 0;
     font-size: 40px;
 }
-.prices-item{
+
+.prices-item {
     width: 332px;
-    height: 282px;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 8px 0;
 }
-.item-button{
-    width: 250px;
-    height: 50px;
+
+.item-button {
+    width: 200px;
     background: #EDF2EC;
     border-radius: 20px;
     font-size: 20px;
@@ -219,25 +276,75 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: all 100ms linear;
+    padding: 16px 40px;
+    margin: 16px 0;
+    cursor: pointer;
 }
-.ellipse{
+
+.item-button[open] {
+    background: #D6E7D2;
+}
+
+.item-button[open] .ellipse img {
+    transform: rotate(360deg);
+}
+
+
+.item-button[open] .ellipse {
+    background: #AEA1A1;
+}
+
+.details-content {
+    font-size: 16px;
+    padding-top: 12px;
+}
+
+.details-content hr {
+    margin-top: 0;
+    border: 0.5px solid #AEA1A1;
+}
+
+.details-price {
+    color: #000000;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.details-price span {
+    font-weight: bold;
+    color: #E06733 !important;
+}
+
+.ellipse {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: #d9d9d9;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.prices-contacts{
+
+.ellipse img {
+    transform: rotate(180deg);
+}
+
+.prices-contacts {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
 }
+
 .prices-contacts h2 {
     text-align: right;
 }
+
 .prices-contacts img {
     margin-top: 40px;
 }
-.prices button{
+
+.prices button {
     width: 161px;
     height: 50px;
     background-color: transparent;
@@ -249,19 +356,120 @@ body{
     vertical-align: top;
     margin-left: 38px;
 }
-.prices button:active{
+
+.contacts-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices button:active {
     background-color: #E06733;
     color: #fff;
 }
+
 .contacts {
     background-color: #EDF2EC;
 }
+
 .contacts-container {
     padding-top: 60px;
 }
+
 .contacts-container h2 {
+    font-family: "Inika";
     text-align: center;
     color: #499A18;
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 0;
+}
+
+.details-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details-text {
+    color: #717171;
+    font-size: 10px;
+}
+
+.blured {
+    filter: blur(3px)
+}
+
+.button-activated {
+    background-color: #E06733 !important;
+    color: #fff !important;
+}
+
+.details-button {
+    background: #FFFFFF !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 8px 20px !important;
+    color: #717171 !important;
+    width: max-content !important;
+    height: max-content !important;
+    font-size: 14px !important;
+    line-height: 14px !important;
+    margin-left: 0 !important;
+}
+
+.city-select {
+    margin-top: 42px;
+    outline: none;
+    width: 450px;
+    height: 50px !important;
+    border-radius: 0;
+    padding: 0 36px;
+    background-color: #C1E698;
+    border: 0;
+    color: #717171;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+}
+
+.address {
+    width: 450px;
+    background: #EDF2EC;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 16px 35px;
+    box-sizing: border-box;
+    margin-top: 47px;
+    flex-direction: column;
+    display: none;
+}
+
+.address-detail {
+    display: flex;
+    padding: 10px 0;
+}
+
+.address-detail-label {
+    width: 130px;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+}
+
+
+.address-detail-value {
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    color: #717171;
+}
+
+.address button {
+    width: max-content;
+    margin: 0 auto;
+    font-family: "Inika";
+    font-size: 10px;
+    line-height: 13px;
+    color: #717171;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    padding: 8px 30px;
+    background-color: transparent;
 }
