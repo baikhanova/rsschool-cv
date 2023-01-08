@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts//Inter.ttf');
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url('../fonts//Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Inika';
+    src: url("../fonts/Inika.ttf");
+}

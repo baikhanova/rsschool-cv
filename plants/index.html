@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plants</title>
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="main-logo">
+                <img src="assets/logo_vector.svg" alt="plants-icon">
+                <p>Plants</p>
+            </div>
+            <div class="main-menu">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#price">Price</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main-container" id="home">
+        <div class="welcome">
+            <div class="container welcome-container">
+                <img class="leafs-photo" src="assets/leafs.svg" alt="leaf">
+                <div class="welcome-section">
+                    <h1>We grow <span class="green-text">plants</span> and give you oxygen</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <div class="container about-container">
+                <div class="about-us">
+                    <h2>We are <span class="orange">professional experienced</span> gardeners</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+                <img src="assets/houseplant 1.svg" alt="">
+            </div>
+
+        </div>
+
+        <div class="service" id="service">
+            <div class="container service-container">
+                <div class="services-content">
+                    <h2>Service and our <br> projects</h2>
+                    <div class="service-btns" id="service-btns">
+                        <button class="filter-button" id="garden-service"
+                            onclick="onFilterBy('garden-service')">Gardens</button>
+                        <button class="filter-button" id="lawn-service"
+                            onclick="onFilterBy('lawn-service')">Lawn</button>
+                        <button class="filter-button" id="planting-service"
+                            onclick="onFilterBy('planting-service')">Planting</button>
+                    </div>
+                </div>
+
+                <div class="services1" id="services">
+                    <div class="service-item" id="garden-service">
+                        <img src="assets/garden-care.png" alt="garden-care">
+                        <div class="item-content">
+                            <h3>Garden care</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item" id="planting-service">
+                        <img src="assets/planting.png" alt="garden-care">
+                        <div class="item-content">
+                            <h3>Planting</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item" id="lawn-service">
+                        <img src="assets/lawn-care.png" alt="garden-care">
+                        <div class="item-content">
+                            <h3>Lawn care</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item" id="planting-service">
+                        <img src="assets/planting2.png" alt="garden-care">
+                        <div class="item-content">
+                            <h3>Planting</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item" id="garden-service">
+                        <img src="assets/garden-care2.png" alt="garden-care">
+                        <div class="item-content">
+                            <h3>Garden care</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item" id="planting-service">
+                        <img src="assets/planting3.png" alt="garden-care">
+                        <div class="item-content">
+                            <h3>Planting</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="prices" id="price">
+            <div class="container prices-container">
+                <div class="prices-header">
+                    <h2>Prices</h2>
+                    <div class="prices-item">
+                        <details class="item-button">
+                            <summary class="details-title">
+                                Basics
+                                <div class="ellipse">
+                                    <img src="assets/arrow.png" alt="arrow">
+                                </div>
+                            </summary>
+                            <div class="details-content">
+                                <hr>
+                                <p class="details-text">
+                                    Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                </p>
+                                <p class="details-price">
+                                    <span>$15</span> / per hour
+                                </p>
+                                <button class="details-button">
+                                    Order
+                                </button>
+                            </div>
+                        </details>
+                        <details class="item-button">
+                            <summary class="details-title">
+                                Standard
+                                <div class="ellipse">
+                                    <img src="assets/arrow.png" alt="arrow">
+                                </div>
+                            </summary>
+                            <div class="details-content">
+                                <hr>
+                                <p class="details-text">
+                                    Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                </p>
+                                <p class="details-price">
+                                    <span>$25</span> / per hour
+                                </p>
+                                <button class="details-button">
+                                    Order
+                                </button>
+                            </div>
+                        </details>
+                        <details class="item-button">
+                            <summary class="details-title">
+                                Pro care
+                                <div class="ellipse">
+                                    <img src="assets/arrow.png" alt="arrow">
+                                </div>
+                            </summary>
+                            <div class="details-content">
+                                <hr>
+                                <p class="details-text">
+                                    Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                </p>
+                                <p class="details-price">
+                                    <span>$35</span> / per hour
+                                </p>
+                                <button class="details-button">
+                                    Order
+                                </button>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <div class="prices-contacts">
+                    <h2>Our best <span class="green-text">gardeners</span> are <br> ready to help you</h2>
+                    <button>Contact us</button>
+                    <img width="152" src="assets/leafs.svg" alt="leafs">
+                </div>
+            </div>
+        </div>
+
+        <div class="contacts" id="contact">
+            <div class="container contacts-container">
+                <h2>Contact us</h2>
+                <div class="contacts-content">
+                    <img src="assets/contact_woman.png" alt="contact woman">
+                    <div>
+                        <select onchange="onChangeCity()" class="city-select" name="cities" id="cities">
+                            <option value="null">City</option>
+                            <option value="CANANDAIGUA">Canandaigua, NY</option>
+                            <option value="NEW_YORK">New York City</option>
+                            <option value="YONKERS">Yonkers, NY</option>
+                            <option value="SHERRILL">Sherrill, NY</option>
+                        </select>
+                        <div class="address" id="address-details">
+                            <div class="address-detail">
+                                <div class="address-detail-label">City:</div>
+                                <div id="city-name" class="address-detail-value">Value</div>
+                            </div>
+
+                            <div class="address-detail">
+                                <div class="address-detail-label">Phone:</div>
+                                <div id="city-phone" class="address-detail-value">Value</div>
+                            </div>
+
+                            <div class="address-detail">
+                                <div class="address-detail-label">Office adress:</div>
+                                <div id="city-address" class="address-detail-value">Value</div>
+                            </div>
+
+                            <button>
+                                Contact us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <div>
+                ©
+                2022
+                github
+            </div>
+            <div>
+                Rolling Scopes School
+            </div>
+            <div>
+                <img src="assets/instagram.png" alt="instagram">
+                <img src="assets/facebook.png" alt="facebook">
+                <img src="assets/twitter.png" alt="twitter">
+                <img src="assets/pinterest.png" alt="pinterest">
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>

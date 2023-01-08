@@ -1,0 +1,13 @@
+@media all and (max-width: 1270px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media all and (max-width: 980px) {
+    .container {
+        width: 100% !important;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
